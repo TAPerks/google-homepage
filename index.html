@@ -5,36 +5,36 @@
     <link rel="stylesheet" href=style.css>
 </head>
 <body>
-<header>
+<header id="header">
 <ul>
-    <li><a href="About.asp">About</a></li>
-    <li><a href="store.asp">Store</a></li>    
-    <li><a href="gmail.asp">Gmail</a></li>
-    <li><a href="Images.asp">Images</a></li>
-    <li><a href="apps.asp">ICON</a></li>
-    <li><input type="submit" value="Sign In"></li>
+    <li class="left"><a href="About.asp">About</a></li>
+    <li class="left"><a href="store.asp">Store</a></li>    
+    <li class="right"><input type="submit" value="Sign In"></li>
+    <li class="right"><a href="apps.asp">ICON</a></li>
+    <li class="right"><a href="Images.asp">Images</a></li>
+    <li class="right"><a href="gmail.asp">Gmail</a></li>
 </ul>
 </header>
 
-<div id="logo">
-    <img src="googlelogo_color_272x92dp.png" alt="Google Logo" id="logo">
-</div>
-<br></br>
+
+<img src="googlelogo_color_272x92dp.png" alt="Google Logo" id="logo"><br>
+
+<div>
 <form>
-    <input type=text id="search" name="search" value="icon">
-    <input type="submit" value="Google Search">
-    <input type="submit" value="I'm Feeling Lucky">
+    <input type=text id="searchbox" name="search" value="icon"> <br><br>
+    <input type="submit" id="searchbutton" value="Google Search"> 
+    <input type="submit" id="searchbutton" value="I'm Feeling Lucky">
 </form>
+</div>
 
-
-<footer>
+<footer id="footer">
 <ul>
-    <li><a href="advertising.asp">Advertising</a></li>
-    <li><a href="business.asp">Business</a></li>
-    <li><a href="search">How Search Works</a></li>
-    <li><a href="privacy.asp">Privacy</a></li>
-    <li><a href="terms.asp">Terms</a></li>
-    <li><a href="settings.asp">Settings</a></li>
+    <li class="left"><a href="advertising.asp">Advertising</a></li>
+    <li class="left"><a href="business.asp">Business</a></li>
+    <li class="left"><a href="search">How Search Works</a></li>
+    <li class="right"><a href="settings.asp">Settings</a></li>
+    <li class="right"><a href="terms.asp">Terms</a></li>
+    <li class="right"><a href="privacy.asp">Privacy</a></li>
 </ul>
 </footer>
 
